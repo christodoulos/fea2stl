@@ -1,3 +1,5 @@
+fea2stl is a work in progress under heavy development
+
 # fea2stl
 
 Determine the outer shell of FEA calculation results
