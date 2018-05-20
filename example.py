@@ -8,3 +8,4 @@ CUBOIDS = dense_cuboids('examples/Node.txt', 'examples/Connectivity.txt',
 CUBOID_COMPLEX = CuboidComplex(CUBOIDS)
 CUBOID_COMPLEX.export_off()
 CUBOID_COMPLEX.export_stl()
+CUBOID_COMPLEX.export_stl_pymesh()

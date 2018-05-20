@@ -1,5 +1,6 @@
 "A Python library that handles cuboids and cuboid complexes"
 import numpy as np
+import pymesh
 from primitives import Point
 from stl import mesh
 
@@ -120,6 +121,12 @@ class CuboidComplex(object):
                     self.shell_triangles += [tri1, tri2]
         print('Done\nThere are {} vertices and {} triangles'.format(len(
             self.shell_vertices), len(self.shell_triangles)))
+
+    def export_stl_pymesh(self):
+        vertices = np.array(self.shell_vertices)
+        faces = np.array(self.shell_triangles)
+        stlmesh = pymesh.form_mesh(vertices, faces)
+        pymesh.save_mesh('model-pymesh.stl', stlmesh)
 
     def export_stl(self):
         vertices = np.array(self.shell_vertices)
