@@ -1,3 +1,5 @@
+![Python package](https://github.com/christodoulos/fea2stl/workflows/Python%20package/badge.svg)
+
 fea2stl is a work in progress under heavy development
 
 # fea2stl
