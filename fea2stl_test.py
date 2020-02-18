@@ -30,4 +30,3 @@ def test_primitives_method2(random_coordinates):
     y = Point(coords["x"], coords["y"], coords["z"])
     z = x - y
     assert x + z == y, "test 2 failed"
-
