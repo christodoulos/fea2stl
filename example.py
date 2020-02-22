@@ -1,5 +1,6 @@
 "Example usage"
-
+import sys
+sys.path.append(".")
 from fea2stl import dense_cuboids, CuboidComplex
 
 # from utils import dense_cuboids
