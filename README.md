@@ -1,10 +1,10 @@
-![Python package](https://github.com/christodoulos/fea2stl/workflows/Python%20package/badge.svg)
+![Python package](https://github.com/christodoulos/ucc2stl/workflows/Python%20package/badge.svg)
 
-fea2stl is a work in progress under heavy development
+ucc2stl is a work in progress under heavy development
 
-# fea2stl
+# ucc2stl
 
-Determine the outer shell of FEA calculation results
+Determine the outer shell of a unit cube complex
 
 The traditional Finite Element approach discetizes a continuous orthogonal domain into smaller elements of a specific shape. We consider unit cube complexes that may be produced by Deep Learning methods as in \\ref{kalioras}
 
@@ -13,7 +13,6 @@ The traditional Finite Element approach discetizes a continuous orthogonal domai
 Introduction to FEA concepts and generative design:
 
 -   Nikos Kallioras
--   Giorgos Kazakis
 -   Nikos Lagaros
 
 Python programming:

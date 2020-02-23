@@ -1,6 +1,6 @@
 import pytest
 import random
-from fea2stl import Point, Vector
+from ucc2stl import Point, Vector
 
 
 @pytest.fixture

@@ -1,7 +1,8 @@
 "Example usage"
 import sys
+
 sys.path.append(".")
-from fea2stl import dense_cuboids, CuboidComplex
+from ucc2stl import dense_cuboids, CuboidComplex
 
 # from utils import dense_cuboids
 # from cuboids import CuboidComplex
@@ -12,4 +13,4 @@ CUBOIDS = dense_cuboids(
 CUBOID_COMPLEX = CuboidComplex(CUBOIDS)
 CUBOID_COMPLEX.export_off()
 CUBOID_COMPLEX.export_stl()
-CUBOID_COMPLEX.export_stl_pymesh()
+# CUBOID_COMPLEX.export_stl_pymesh()
