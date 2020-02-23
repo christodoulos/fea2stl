@@ -6,6 +6,8 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-CMD ["cd", "/app"]
+RUN python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps ucc2stl-chfrag
 
-CMD ["python", "/app/example.py"]
+WORKDIR /app/examples
+
+CMD ["python", "example.py"]

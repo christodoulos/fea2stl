@@ -1,11 +1,4 @@
-"Example usage"
-import sys
-
-sys.path.append(".")
 from ucc2stl import dense_cuboids, CuboidComplex
-
-# from utils import dense_cuboids
-# from cuboids import CuboidComplex
 
 CUBOIDS = dense_cuboids("Node.txt", "Connectivity.txt", "density.txt", 0.3)
 CUBOID_COMPLEX = CuboidComplex(CUBOIDS)
