@@ -29,4 +29,5 @@ jobs:
       - name: Test with pytest
         run: |
           pip install pytest
+          pip install --index-url https://test.pypi.org/simple/ --no-deps ucc2stl-chfrag
           pytest
