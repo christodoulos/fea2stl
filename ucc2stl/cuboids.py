@@ -146,7 +146,8 @@ class CuboidComplex(object):
         self.shell()
         f = open(off_filename, "w")
         f.write("OFF\n")
-        f.write("%s %s 0\n" % (len(self.shell_vertices), len(self.shell_triangles)))
+        f.write("%s %s 0\n" %
+                (len(self.shell_vertices), len(self.shell_triangles)))
         for v in self.shell_vertices:
             f.write("%.0f %.0f %.0f\n" % (v[0], v[1], v[2]))
         for p in self.shell_triangles:
